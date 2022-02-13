@@ -15,16 +15,7 @@ public class GravityPlayer : MonoBehaviour
         myTransform = transform;
 
     }
-   /* void Awake()
-    {
-        attractor = GameObject.FindGameObjectWithTag("Planet").GetComponent<GravityGlobe>();
-		rigidbody = GetComponent<Rigidbody> ();
 
-		// Disable rigidbody gravity and rotation as this is simulated in GravityAttractor script
-		rigidbody.useGravity = false;
-		rigidbody.constraints = RigidbodyConstraints.FreezeRotation;
-    }
-    */
     // Update is called once per frame
     void Update()
     {
